@@ -1,0 +1,243 @@
+.loginChild,
+.loginItem {
+  position: absolute;
+  top: 0;
+  left: 61px;
+  width: 512px;
+  height: 627px;
+}
+.loginItem {
+  top: 36px;
+  left: 36px;
+  background-color: var(--white);
+  box-shadow: 0 4px 50px rgba(71, 109, 246, 0.12);
+  width: 1368px;
+  height: 722px;
+}
+.login1 {
+  position: relative;
+  line-height: 64px;
+  font-weight: 600;
+}
+.label,
+.loginParent {
+  display: flex;
+  align-items: center;
+}
+.label {
+  position: relative;
+  font-size: var(--bodytext-14-medium-size);
+  line-height: 20px;
+  color: #8a8a8a;
+  text-align: center;
+  justify-content: center;
+  width: 348px;
+}
+.loginParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.username {
+  color: var(--body-text);
+}
+.label1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.outlineSearch2 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  display: none;
+}
+.label2 {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.pointer2 {
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--colors-blue-100-opacity);
+  width: 2px;
+  height: 20px;
+  display: none;
+}
+.labelPointer2 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.outlineClose2 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  display: none;
+}
+.input1 {
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+  background-color: var(--white);
+  border: 1px solid var(--line);
+  box-sizing: border-box;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs);
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--label);
+}
+.input,
+.input1 {
+  gap: var(--gap-5xs);
+}
+.input,
+.input2,
+.inputParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.input2 {
+  gap: var(--gap-5xs);
+  color: #d72727;
+}
+.inputParent {
+  gap: 20px;
+}
+.text1 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.button,
+.frameGroup,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button {
+  border-radius: var(--br-7xs);
+  background-color: var(--primary-default);
+  width: 128px;
+  overflow: hidden;
+  padding: var(--padding-3xs) var(--padding-sm);
+  box-sizing: border-box;
+  justify-content: center;
+  text-align: center;
+  color: var(--white);
+}
+.frameGroup,
+.frameParent {
+  justify-content: flex-start;
+}
+.frameGroup {
+  width: 352px;
+  gap: 52px;
+  font-size: var(--bodytext-14-medium-size);
+  color: var(--state-danger-default);
+}
+.frameParent {
+  position: absolute;
+  top: 197px;
+  left: 840px;
+  width: 408px;
+  gap: 40px;
+}
+.loginInner {
+  position: absolute;
+  top: 36px;
+  left: 61px;
+  width: 512px;
+  height: 591px;
+}
+.image1Icon,
+.vectorIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 579.68px;
+  height: 794px;
+}
+.image1Icon {
+  top: 68px;
+  left: 1208px;
+  width: 148.15px;
+  height: 36px;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+}
+.frameChild,
+.frameInner,
+.frameItem {
+  position: relative;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+.frameChild {
+  background-color: var(--state-danger-default);
+}
+.frameInner,
+.frameItem {
+  background-color: #ffd600;
+}
+.frameInner {
+  background-color: #00ff85;
+}
+.ellipseParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.groupIcon {
+  position: relative;
+  width: 522.1px;
+  height: 399.74px;
+}
+.frame,
+.frameDiv {
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame {
+  align-self: stretch;
+  background-color: var(--white);
+  box-shadow: 0 4px 32px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  padding: 32.63135528564453px;
+}
+.frameDiv {
+  position: absolute;
+  top: 140px;
+  left: 84px;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 624px;
+  padding: var(--padding-xs) var(--padding-base) var(--padding-base);
+  box-sizing: border-box;
+  gap: 12px;
+}
+.login {
+  position: relative;
+  background-color: #fafdff;
+  width: 100%;
+  height: 794px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--title-40-semibold-size);
+  color: var(--heading);
+  font-family: var(--title-40-semibold);
+}
